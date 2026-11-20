@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RideMate Smoke Suite" verbose="1">
+  <listeners>
+    <listener class-name="com.ridemate.listeners.TestListener"/>
+  </listeners>
+  <test name="Smoke Tests">
+    <parameter name="browser" value="chrome"/>
+    <groups><run><include name="smoke"/></run></groups>
+    <packages><package name="com.ridemate.tests"/></packages>
+  </test>
+</suite>

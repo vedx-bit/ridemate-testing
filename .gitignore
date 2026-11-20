@@ -1,0 +1,7 @@
+target/
+screenshots/
+test-output/
+.idea/
+*.iml
+*.class
+.vscode/
